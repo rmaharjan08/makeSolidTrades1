@@ -1,0 +1,34 @@
+<div class="app-nav">
+  <header class="container-fluid">
+    <div class="navbar navbar-expand-lg fixed-top">
+      <div class="navbar-brand">
+        <!-- <button type="navbar-toggler" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> -->
+        <div class="icons">
+          <a href="#" class="navbar-brand"><span aria-hidden="true">
+            <img class="logo" src="assets/images/transparent.png"></span> </a>
+        </div>
+      </div>
+
+      <div class="icons"><a href="https://twitter.com/Apanjwani09" target="_blank"><i class="fa fa-twitter"></i></a></div>
+      <div class="icons"><a href=""><i class="fa fa-facebook-f" ></i></a></div>
+      <div class="icons"><a href="https://www.youtube.com/channel/UChKmIPbmvrU4_xLY9aJojEQ" target = "_blank"><i class="fa fa-youtube"></i></a></div>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+
+          <li class="nav-item" *ngFor="let nav of navList">
+            <a href="{{nav.href}}" class="nav-link" data-value="{{nav.dataValue}}" target="{{getTarget(nav.target)}}">{{nav.label}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+</div>

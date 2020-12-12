@@ -1,0 +1,49 @@
+.app-nav {
+  .navbar {
+    background:#b0cdd4fa;
+    font-size: 1.5rem;
+
+    .icons a {
+      display: block;
+      padding: 0.5rem;
+      margin: 0.2rem;
+      font-size: 2rem;
+
+      .logo {
+        height: 70px;
+        width: 140px;
+      }
+    }
+
+    .navbar-brand {
+      color: #484c4d;
+      cursor: pointer;
+
+      .navbar-toggler {
+        background: yellow;
+      }
+    }
+
+    .navbar-collapse {
+      justify-content: flex-end;
+
+      .nav-link {
+        color: #484c4d;
+        cursor: pointer;
+        margin-right: 1em;
+        &:hover {
+          background: #c0baba;
+          color: #383736;
+        }
+      }
+    }
+  }
+
+
+}
+
+
+
+
+
+

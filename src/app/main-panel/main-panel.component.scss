@@ -1,0 +1,50 @@
+.portfolio{
+  margin: 4em 0;
+  position: relative;
+
+  img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+  }
+
+  h1{
+    margin: 2em;
+  }
+
+  .jumbotron{
+  text-align: center;
+  align-items: center;
+  background-color: #f0f7ff1e;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+
+    .intro-text{
+      text-align: center;
+      align-items: center;
+      padding: 0.5rem;
+      color: #4927e0;
+      text-shadow: 1px 1px 5px black;
+    }
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: auto;
+  }
+
+  .intro{
+    margin-top: auto;
+    position: relative;
+
+    .description{
+      border: 1px solid grey;
+      margin: auto;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+}
+

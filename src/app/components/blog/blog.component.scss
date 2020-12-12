@@ -1,0 +1,33 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: auto;
+
+  .card{
+    min-height: 80%;
+    background-color: #bad8e2c2;
+    box-shadow: 2px 2px #656e79;
+    border-radius: 1%;
+
+    h4{
+      color: #406799;
+      align-items: center;
+      margin: auto;
+    }
+
+    .card-body{
+      color:rgb(89, 113, 129);
+      font-size: 1.2rem;
+
+      h4{
+        text-decoration-line: underline;
+      }
+
+      .card-text ul li {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

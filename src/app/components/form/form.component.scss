@@ -1,0 +1,24 @@
+.form{
+  margin: 1.3rem auto;
+  padding: 10px;
+  background-color: #bad8e2c2;
+  min-height: 100%;
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: auto;
+
+    .wel{
+      align-items: center;
+      margin: auto;
+      padding: auto;
+      text-align: center;
+    }
+  }
+}
+
+
+
+
